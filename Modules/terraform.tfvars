@@ -1,7 +1,7 @@
 
 ## s3 values
 
-bucket    = "awsnareshitbucketname"
+bucket    = "prashanthaws27"
 
 ## iam values
 role_name = "testing"

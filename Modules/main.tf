@@ -26,7 +26,7 @@ module "vpc" {
 module "ec2" {
   source = "./Ec2"
   subnetid = module.vpc.public_subnet_id
-  ami = "ami-07ef4004db979fcd4"
+  ami = "ami-0d94353f7bad10668"
   instance_type = "t2.micro"
 
   
