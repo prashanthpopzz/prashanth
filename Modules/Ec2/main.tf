@@ -5,7 +5,7 @@ resource "aws_instance" "web" {
   ami           = var.ami
   instance_type = var.instance_type
   subnet_id     = var.subnetid
-  availability_zone = "ap-south-1a"
+  availability_zone = "us-east-1a"
   #security_groups = [aws_security_group.instance_sg.name]
 
   tags = {
