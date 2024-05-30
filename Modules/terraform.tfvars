@@ -4,7 +4,7 @@
 bucket    = "prashanthaws27"
 
 ## iam values
-role_name = "testing"
+role_name = "prashanth_13"
 
 ## vpc values
 
