@@ -12,7 +12,7 @@ terraform init
 Create a main.tf file and configure the AWS provider with your AWS credentials and region.
 
 hcl
-Copy code
+Copy codem  
 provider "aws" {
   region = "us-east-1"  # Change to your desired AWS region
 }
